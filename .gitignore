@@ -1,0 +1,8 @@
+*.compiled
+*.lrs
+*.o
+*.or
+*.ppu
+*.swp
+build/*.lfm
+build/SimulateDesign
