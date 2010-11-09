@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <PathDelim Value="/"/>
+    <General>
+      <MainUnit Value="0"/>
+    </General>
+    <Units Count="2">
+      <Unit0>
+        <Filename Value="SimulateDesign.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="SimulateDesign"/>
+        <EditorIndex Value="0"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="Design.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Design"/>
+        <EditorIndex Value="1"/>
+        <Loaded Value="True"/>
+      </Unit1>
+    </Units>
+    <RequiredPackages Count="1">
+      <Item1>
+        <PackageName Value="rsdcore"/>
+        <MaxVersion Minor="1" Valid="True"/>
+        <MinVersion Minor="1" Valid="True"/>
+      </Item1>
+    </RequiredPackages>
+  </ProjectOptions>
+  <CompilerOptions>
+    <SearchPaths>
+      <UnitOutputDirectory Value="build"/>
+    </SearchPaths>
+  </CompilerOptions>
+</CONFIG>

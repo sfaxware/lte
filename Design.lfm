@@ -1,0 +1,36 @@
+object DesignSimulator: TTopDesign
+  object Design1: TDesign1
+    Caption = 'eNb'
+    Color = $000000FF
+    Left = 634
+    Top = 110
+    Width = 100
+    Height = 100
+  end
+  object Design2: TDesign2
+    Caption = 'Channel'
+    Color = $000000FF
+    Left = 335
+    Top = 337
+    Width = 100
+    Height = 100
+  end
+  object Design3: TDesign3
+    Caption = 'Ue'
+    Color = $000000FF
+    Left = 61
+    Top = 542
+    Width = 100
+    Height = 100
+  end
+  object Connector4: TConnector
+    OutputPort = Design1.Port
+    InputPort = Design2.Port
+    Depth = 127
+  end
+  object Connector5: TConnector
+    OutputPort = Design2.Port0
+    InputPort = Design3.Port
+    Depth = 127
+  end
+end

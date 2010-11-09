@@ -1,0 +1,6 @@
+object Design2: TDesign2
+  object Port: TInputPort
+  end
+  object Port0: TOutputPort
+  end
+end
