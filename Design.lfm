@@ -33,4 +33,14 @@ object DesignSimulator: TTopDesign
     InputPort = Design3.Port
     Depth = 127
   end
+  object Connector6: TConnector
+    OutputPort = Design1.Port
+    InputPort = Design2.Port
+    Depth = 127
+  end
+  object Connector7: TConnector
+    OutputPort = Design2.Port0
+    InputPort = Design3.Port
+    Depth = 127
+  end
 end
