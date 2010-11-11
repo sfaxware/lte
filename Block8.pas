@@ -1,18 +1,13 @@
-unit Design3;
+unit Block8;
 {$MODE OBJFPC}{$LONGSTRINGS ON}{$INTERFACES CORBA}
 
 interface
 
 uses
-  Designs, Blocks, Block8;
+  Blocks;
 
 type
-  
-  { TDesign3 }
-
-  TDesign3 = class(TDesign)
-    Port: TInputPort;
-    Block8: TBlock8; 
+  TBlock8 = class(TBlock)
   public
     procedure Execute; override;
   end;
@@ -22,7 +17,7 @@ implementation
 uses
   Classes;
 
-procedure TDesign3.Execute;
+procedure TBlock8.Execute;
 begin;
   {Write here your code}
   {You may need to remove the following line}
@@ -31,7 +26,7 @@ end;
 
 initialization
   {$R *.lfm}
-  RegisterClass(TDesign3);
+  RegisterClass(TBlock8);
 
 finalization
 

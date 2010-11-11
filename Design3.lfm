@@ -1,4 +1,12 @@
 object Design3: TDesign3
   object Port: TInputPort
   end
+  object Block8: TBlock8
+    Caption = 'RF'
+    Color = $000000FF
+    Left = 462
+    Top = 275
+    Width = 100
+    Height = 100
+  end
 end
