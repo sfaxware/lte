@@ -1,12 +1,38 @@
 object Design3: TDesign3
   object Port: TInputPort
   end
-  object Block8: TBlock8
+  object Block12: TBlock12
     Caption = 'RF'
     Color = $000000FF
-    Left = 462
-    Top = 275
+    Left = 607
+    Top = 299
     Width = 100
     Height = 100
+  end
+  object Design15: TDesign15
+    Caption = 'FE'
+    Color = $000000FF
+    Left = 438
+    Top = 418
+    Width = 100
+    Height = 100
+  end
+  object Connector18: TConnector
+    OutputPort = Block12.OutputPort15
+    InputPort = Design15.InputPort17
+    Depth = 127
+  end
+  object Design19: TDesign19
+    Caption = 'BE'
+    Color = $000000FF
+    Left = 235
+    Top = 464
+    Width = 100
+    Height = 100
+  end
+  object Connector21: TConnector
+    OutputPort = Design15.OutputPort18
+    InputPort = Design19.InputPort21
+    Depth = 127
   end
 end

@@ -1,0 +1,6 @@
+object Design15: TDesign15
+  object InputPort17: TInputPort
+  end
+  object OutputPort18: TOutputPort
+  end
+end

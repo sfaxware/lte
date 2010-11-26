@@ -1,0 +1,6 @@
+object Block12: TBlock12
+  object InputPort14: TInputPort
+  end
+  object OutputPort15: TOutputPort
+  end
+end
