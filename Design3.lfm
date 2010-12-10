@@ -1,5 +1,5 @@
 object Design3: TDesign3
-  object Port: TInputPort
+  object Port: TInputPortRef
   end
   object Block12: TBlock12
     Caption = 'RF'
@@ -33,6 +33,11 @@ object Design3: TDesign3
   object Connector21: TConnector
     OutputPort = Design15.OutputPort18
     InputPort = Design19.InputPort21
+    Depth = 127
+  end
+  object Connector20: TConnector
+    OutputPort = Port
+    InputPort = Block12.InputPort14
     Depth = 127
   end
 end

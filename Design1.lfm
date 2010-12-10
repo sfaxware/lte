@@ -1,4 +1,4 @@
 object Design1: TDesign1
-  object Port: TOutputPort
+  object Port: TOutputPortRef
   end
 end

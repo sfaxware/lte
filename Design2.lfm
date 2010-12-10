@@ -1,6 +1,6 @@
 object Design2: TDesign2
-  object Port: TInputPort
+  object Port: TInputPortRef
   end
-  object Port0: TOutputPort
+  object Port0: TOutputPortRef
   end
 end
