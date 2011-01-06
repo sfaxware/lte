@@ -4,6 +4,7 @@
     <PathDelim Value="/"/>
     <General>
       <MainUnit Value="0"/>
+      <SessionStorage Value="InProjectDir"/>
     </General>
     <Units Count="2">
       <Unit0>
