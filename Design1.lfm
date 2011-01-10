@@ -1,4 +1,18 @@
 object Design1: TDesign1
   object Port: TOutputPortRef
   end
+  object FileReadSource26: TFileReadSource26
+    Caption = 'Inputs'
+    FileName = 'inputs.txt'
+    Color = $0000FF00
+    Left = 546
+    Top = 225
+    Width = 100
+    Height = 100
+  end
+  object Connector28: TConnector
+    OutputPort = FileReadSource26.Output
+    InputPort = Port
+    Depth = 127
+  end
 end
