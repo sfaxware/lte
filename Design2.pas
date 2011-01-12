@@ -7,13 +7,13 @@ uses
   Designs, Blocks, Block21;
 
 type
-  
+
   { TDesign2 }
 
   TDesign2 = class(TDesign)
-    Port: TInputPort;
-    Port0: TOutputPort; 
-    Block21: TBlock21; 
+    Port: TInputPortRef;
+    Port0: TOutputPortRef;
+    Block21: TBlock21;
   public
     procedure Execute; override;
   end;

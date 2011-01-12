@@ -6,11 +6,11 @@ uses
   Designs, Blocks;
 
 type
-  
+
   { TDesign19 }
 
   TDesign19 = class(TDesign)
-    InputPort21: TInputPort;
+    InputPort21: TInputPortRef;
   end;
 
 implementation

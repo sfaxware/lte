@@ -7,14 +7,14 @@ uses
   Designs, Blocks, Block12, Design15, Design19;
 
 type
-  
+
   { TDesign3 }
 
   TDesign3 = class(TDesign)
-    Port: TInputPort;
-    Block12: TBlock12; 
-    Design15: TDesign15; 
-    Design19: TDesign19; 
+    Port: TInputPortRef;
+    Block12: TBlock12;
+    Design15: TDesign15;
+    Design19: TDesign19;
   public
     procedure Execute; override;
   end;

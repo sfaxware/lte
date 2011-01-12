@@ -7,12 +7,12 @@ uses
   Designs, Blocks, FileReadSource26;
 
 type
-  
+
   { TDesign1 }
 
   TDesign1 = class(TDesign)
-    Port: TOutputPort;
-    FileReadSource26: TFileReadSource26; 
+    Port: TOutputPortRef;
+    FileReadSource26: TFileReadSource26;
   public
     procedure Execute; override;
   end;
