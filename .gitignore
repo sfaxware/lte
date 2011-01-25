@@ -6,3 +6,4 @@
 *.swp
 build/*.lfm
 build/SimulateDesign
+*.lps

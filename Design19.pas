@@ -3,7 +3,7 @@ unit Design19;
 interface
 
 uses
-  Designs, Blocks;
+  Designs, Blocks, FileDumpProbe36;
 
 type
 
@@ -11,6 +11,7 @@ type
 
   TDesign19 = class(TDesign)
     InputPort21: TInputPortRef;
+    FileDumpProbe36: TFileDumpProbe36; 
   end;
 
 implementation

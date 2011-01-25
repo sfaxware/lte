@@ -1,16 +1,13 @@
-unit FileReadSource26;
+unit FileDumpProbe36;
 {$MODE OBJFPC}{$LONGSTRINGS ON}{$INTERFACES CORBA}
 
 interface
 
 uses
-  Sources, Blocks;
+  Probes;
 
 type
-  
-  { TFileReadSource26 }
-
-  TFileReadSource26 = class(TFileReadSource)
+  TFileDumpProbe36 = class(TFileDumpProbe)
   public
     procedure Execute; override;
   end;
@@ -20,7 +17,7 @@ implementation
 uses
   Classes;
 
-procedure TFileReadSource26.Execute;
+procedure TFileDumpProbe36.Execute;
 begin;
   {Write here your code}
   {You may need to remove the following line}
@@ -29,7 +26,7 @@ end;
 
 initialization
   {$R *.lfm}
-  RegisterClass(TFileReadSource26);
+  RegisterClass(TFileDumpProbe36);
 
 finalization
 

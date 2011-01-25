@@ -2,8 +2,8 @@ object DesignSimulator: TTopDesign
   object Design1: TDesign1
     Caption = 'eNb'
     Color = $000000FF
-    Left = 634
-    Top = 110
+    Left = 602
+    Top = 242
     Width = 100
     Height = 100
   end

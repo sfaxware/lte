@@ -1,4 +1,4 @@
-unit FileReadSource26;
+unit RandomSource29;
 {$MODE OBJFPC}{$LONGSTRINGS ON}{$INTERFACES CORBA}
 
 interface
@@ -8,9 +8,9 @@ uses
 
 type
   
-  { TFileReadSource26 }
+  { TRandomSource29 }
 
-  TFileReadSource26 = class(TFileReadSource)
+  TRandomSource29 = class(TRandomSource)
   public
     procedure Execute; override;
   end;
@@ -20,7 +20,7 @@ implementation
 uses
   Classes;
 
-procedure TFileReadSource26.Execute;
+procedure TRandomSource29.Execute;
 begin;
   {Write here your code}
   {You may need to remove the following line}
@@ -29,7 +29,7 @@ end;
 
 initialization
   {$R *.lfm}
-  RegisterClass(TFileReadSource26);
+  RegisterClass(TRandomSource29);
 
 finalization
 

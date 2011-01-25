@@ -3,4 +3,22 @@ object Design15: TDesign15
   end
   object OutputPort18: TOutputPortRef
   end
+  object Block31: TBlock31
+    Caption = 'Block 31'
+    Color = $000000FF
+    Left = 356
+    Top = 239
+    Width = 100
+    Height = 100
+  end
+  object Connector34: TConnector
+    OutputPort = InputPort17
+    InputPort = Block31.InputPort32
+    Depth = 127
+  end
+  object Connector35: TConnector
+    OutputPort = Block31.OutputPort33
+    InputPort = OutputPort18
+    Depth = 127
+  end
 end

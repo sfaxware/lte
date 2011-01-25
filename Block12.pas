@@ -23,10 +23,13 @@ uses
   Classes;
 
 procedure TBlock12.Execute;
+var
+  S: Integer;
 begin;
   {Write here your code}
   {You may need to remove the following line}
-  inherited Execute;
+  InputPort14.Pop(S);
+  OutputPort15.Push(S);
 end;
 
 initialization

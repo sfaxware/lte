@@ -1,4 +1,19 @@
 object Design19: TDesign19
   object InputPort21: TInputPortRef
   end
+  object FileDumpProbe36: TFileDumpProbe36
+    Caption = 'Block 36'
+    FileName = ''
+    SampleQty = 2147483647
+    Color = $000000FF
+    Left = 174
+    Top = 504
+    Width = 100
+    Height = 100
+  end
+  object Connector38: TConnector
+    OutputPort = InputPort21
+    InputPort = FileDumpProbe36.Input
+    Depth = 127
+  end
 end

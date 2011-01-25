@@ -4,7 +4,7 @@ unit Design2;
 interface
 
 uses
-  Designs, Blocks, Block21;
+  Designs, Blocks, Block21, RandomSource29;
 
 type
 
@@ -14,6 +14,7 @@ type
     Port: TInputPortRef;
     Port0: TOutputPortRef;
     Block21: TBlock21;
+    RandomSource29: TRandomSource29; 
   public
     procedure Execute; override;
   end;

@@ -5,8 +5,8 @@ object Design1: TDesign1
     Caption = 'Inputs'
     FileName = 'inputs.txt'
     Color = $0000FF00
-    Left = 546
-    Top = 225
+    Left = 417
+    Top = 235
     Width = 100
     Height = 100
   end

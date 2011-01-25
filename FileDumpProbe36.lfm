@@ -1,0 +1,4 @@
+object FileDumpProbe36: TFileDumpProbe36
+  object Input: TInputPort
+  end
+end

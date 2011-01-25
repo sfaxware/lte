@@ -3,7 +3,7 @@ unit Design15;
 interface
 
 uses
-  Designs, Blocks;
+  Designs, Blocks, Block31;
 
 type
 
@@ -12,6 +12,7 @@ type
   TDesign15 = class(TDesign)
     InputPort17: TInputPortRef;
     OutputPort18: TOutputPortRef;
+    Block31: TBlock31; 
   end;
 
 implementation

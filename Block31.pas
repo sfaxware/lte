@@ -1,16 +1,18 @@
-unit FileReadSource26;
+unit Block31;
 {$MODE OBJFPC}{$LONGSTRINGS ON}{$INTERFACES CORBA}
 
 interface
 
 uses
-  Sources, Blocks;
+  Blocks;
 
 type
   
-  { TFileReadSource26 }
+  { TBlock31 }
 
-  TFileReadSource26 = class(TFileReadSource)
+  TBlock31 = class(TBlock)
+    InputPort32: TInputPort;
+    OutputPort33: TOutputPort; 
   public
     procedure Execute; override;
   end;
@@ -20,7 +22,7 @@ implementation
 uses
   Classes;
 
-procedure TFileReadSource26.Execute;
+procedure TBlock31.Execute;
 begin;
   {Write here your code}
   {You may need to remove the following line}
@@ -29,7 +31,7 @@ end;
 
 initialization
   {$R *.lfm}
-  RegisterClass(TFileReadSource26);
+  RegisterClass(TBlock31);
 
 finalization
 

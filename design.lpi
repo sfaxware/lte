@@ -1,11 +1,35 @@
 <?xml version="1.0"?>
 <CONFIG>
   <ProjectOptions>
-    <PathDelim Value="/"/>
+    <Version Value="9"/>
     <General>
-      <MainUnit Value="0"/>
+      <Flags>
+        <LRSInOutputDirectory Value="False"/>
+      </Flags>
       <SessionStorage Value="InProjectDir"/>
+      <MainUnit Value="0"/>
     </General>
+    <BuildModes Count="1">
+      <Item1 Name="default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <LaunchingApplication PathPlusParams="/usr/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="1">
+      <Item1>
+        <PackageName Value="rsdcore"/>
+        <MaxVersion Minor="1" Valid="True"/>
+        <MinVersion Minor="1" Valid="True"/>
+      </Item1>
+    </RequiredPackages>
     <Units Count="2">
       <Unit0>
         <Filename Value="SimulateDesign.pas"/>
@@ -17,22 +41,26 @@
       <Unit1>
         <Filename Value="Design.pas"/>
         <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
         <UnitName Value="Design"/>
         <EditorIndex Value="1"/>
         <Loaded Value="True"/>
       </Unit1>
     </Units>
-    <RequiredPackages Count="1">
-      <Item1>
-        <PackageName Value="rsdcore"/>
-        <MaxVersion Minor="1" Valid="True"/>
-        <MinVersion Minor="1" Valid="True"/>
-      </Item1>
-    </RequiredPackages>
+    <PathDelim Value="/"/>
   </ProjectOptions>
   <CompilerOptions>
+    <Version Value="9"/>
     <SearchPaths>
       <UnitOutputDirectory Value="build"/>
     </SearchPaths>
+    <Parsing>
+      <SyntaxOptions>
+        <UseAnsiStrings Value="False"/>
+      </SyntaxOptions>
+    </Parsing>
+    <Other>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
   </CompilerOptions>
 </CONFIG>
