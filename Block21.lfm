@@ -3,4 +3,6 @@ object Block21: TBlock21
   end
   object InputPort23: TInputPort
   end
+  object InputPort39: TInputPort
+  end
 end

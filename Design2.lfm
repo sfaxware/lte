@@ -25,10 +25,15 @@ object Design2: TDesign2
     Caption = 'Block 29'
     InitialSeed = 1234
     Amplitude = 255
-    Color = $000000FF
-    Left = 511
-    Top = 128
+    Color = $003232E6
+    Left = 506
+    Top = 406
     Width = 100
     Height = 100
+  end
+  object Connector40: TConnector
+    OutputPort = RandomSource29.Output
+    InputPort = Block21.InputPort39
+    Depth = 127
   end
 end
