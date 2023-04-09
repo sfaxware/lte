@@ -11,6 +11,10 @@ type
   { TDesign3 }
 
   TDesign3 = class(TDesign)
+    Connector18: TConnector;
+    Connector19: TConnector;
+    Connector20: TConnector;
+    Connector21: TConnector;
     Port: TInputPortRef;
     Block12: TBlock12;
     Design15: TDesign15;

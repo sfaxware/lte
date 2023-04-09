@@ -10,6 +10,8 @@ type
   { TTopDesign }
 
   TTopDesign = class(TDesign)
+    Connector4: TConnector;
+    Connector5: TConnector;
     Design1: TDesign1;
     Design2: TDesign2; 
     Design3: TDesign3; 

@@ -11,6 +11,8 @@ type
   { TDesign1 }
 
   TDesign1 = class(TDesign)
+    Connector28: TConnector;
+    Connector5: TConnector; 
     Port: TOutputPortRef;
     FileReadSource26: TFileReadSource26;
   public

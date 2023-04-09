@@ -10,6 +10,7 @@ type
   { TDesign19 }
 
   TDesign19 = class(TDesign)
+    Connector38: TConnector;
     InputPort21: TInputPortRef;
     FileDumpProbe36: TFileDumpProbe36; 
   end;
